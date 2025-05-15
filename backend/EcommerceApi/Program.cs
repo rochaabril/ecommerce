@@ -10,19 +10,19 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configurar Kestrel para escuchar en el puerto asignado por Render o el 8080 por defecto
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 builder.WebHost.ConfigureKestrel(options =>
 {
-	options.ListenAnyIP(8080);
+	options.ListenAnyIP(int.Parse(port));
 });
 
 // Configurar el DbContext con la cadena de conexión
 builder.Services.AddDbContext<tienda_mayoristaContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+	options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
-// Add services to the container.
-
-builder.Services.AddScoped<ProductoService>(); // Agregar servicio ProductoService
+// Servicios y repositorios
+builder.Services.AddScoped<ProductoService>();
 builder.Services.AddScoped<ItemCarritoService>();
 builder.Services.AddScoped<CarritoService>();
 builder.Services.AddScoped<CategoriaService>();
@@ -31,16 +31,9 @@ builder.Services.AddScoped<OrdeneService>();
 builder.Services.AddScoped<UsuarioService>();
 builder.Services.AddScoped<RoleService>();
 builder.Services.AddScoped<AuthService>();
-
 builder.Services.AddHttpClient();
 builder.Services.AddScoped<EmailService>();
-
-
-
-
-
-
-builder.Services.AddScoped<IProductoRepository, ProductoRepository>(); // Repositorio
+builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
 builder.Services.AddScoped<IItemCarritoRepository, ItemCarritoRepository>();
 builder.Services.AddScoped<ICarritoRepository, CarritoRepository>();
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
@@ -69,16 +62,11 @@ builder.Services.AddAuthentication(x =>
 	};
 });
 
-
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
 	c.SwaggerDoc("v1", new OpenApiInfo { Title = "Ecommerce API", Version = "v1" });
-
-	// Configurar la autenticación de tipo Bearer
 	c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
 	{
 		In = ParameterLocation.Header,
@@ -87,7 +75,6 @@ builder.Services.AddSwaggerGen(c =>
 		Type = SecuritySchemeType.Http,
 		Scheme = "bearer"
 	});
-
 	c.AddSecurityRequirement(new OpenApiSecurityRequirement
 	{
 		{
@@ -99,7 +86,7 @@ builder.Services.AddSwaggerGen(c =>
 					Id = "Bearer"
 				}
 			},
-			new string[] { }
+			new string[] {}
 		}
 	});
 });
@@ -116,26 +103,17 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
-if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
 	app.UseSwagger();
 	app.UseSwaggerUI();
 }
 
-
+// **Comenta esta línea mientras haces pruebas en Render (si da problemas HTTPS)**
+// app.UseHttpsRedirection();
 
 app.UseCors("AllowAll");
 
-
-// Agregar el middleware de autenticación
 app.UseAuthentication();
 app.UseAuthorization();
 
