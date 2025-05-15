@@ -1,0 +1,1044 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\services\\carritoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\services\\carritoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\controllers\\exportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\controllers\\exportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\ecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\ecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Abril\\.nuget\\packages\\epplus\\7.5.2\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\controllers\\ordenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\controllers\\ordenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\controllers\\itemcarritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\controllers\\itemcarritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\controllers\\itemordenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\controllers\\itemordenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\models\\productomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\models\\productomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\repositories\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\repositories\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\mappers\\usuariomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\mappers\\usuariomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\services\\itemcarritoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\services\\itemcarritoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\repositories\\itemcarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\repositories\\itemcarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\dtos\\itemcarritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\itemcarritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\dtos\\ordenedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\ordenedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\data\\ordene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\data\\ordene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\mappers\\itemcarritomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\mappers\\itemcarritomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\repositories\\interfaces\\iitemcarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\repositories\\interfaces\\iitemcarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\models\\itemcarritomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\models\\itemcarritomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\data\\itemcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\data\\itemcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\data\\tienda_mayoristacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\data\\tienda_mayoristacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\migrations\\tienda_mayoristacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\migrations\\tienda_mayoristacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\migrations\\20241104135937_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\migrations\\20241104135937_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\repositories\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\repositories\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\repositories\\carritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\repositories\\carritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\repositories\\interfaces\\icarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\repositories\\interfaces\\icarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\ecommerceapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\ecommerceapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\repositories\\interfaces\\iitemordenerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\repositories\\interfaces\\iitemordenerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\repositories\\itemordenerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\repositories\\itemordenerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\services\\itemordeneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\services\\itemordeneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\dtos\\carritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\carritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\services\\ordeneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\services\\ordeneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\repositories\\ordenerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\repositories\\ordenerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\mappers\\ordenemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\mappers\\ordenemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\mappers\\carritomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\mappers\\carritomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\dtos\\itemordenedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\itemordenedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\mappers\\rolemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\mappers\\rolemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\mappers\\productomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\mappers\\productomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\mappers\\categoriamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\mappers\\categoriamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\data\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\data\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\data\\itemordene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\data\\itemordene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\data\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\data\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\carmen lucia\\desktop\\proyecto-ecommerce\\backend\\ecommerceapi\\data\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950C8307-CE50-44DE-8909-A80D6C2908FE}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\data\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 149,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Program.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Program.cs",
+              "RelativeToolTip": "EcommerceApi\\Program.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAIwDcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:58:14.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExportController.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\ExportController.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Controllers\\ExportController.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\ExportController.cs",
+              "RelativeToolTip": "EcommerceApi\\Controllers\\ExportController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T14:22:56.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "EcommerceApi\\Services\\UsuarioService.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA9wDYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:50:54.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "EcommerceApi\\Controllers\\ProductoController.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAwGUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T15:27:30.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\ProductoService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Services\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\ProductoService.cs",
+              "RelativeToolTip": "EcommerceApi\\Services\\ProductoService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwBEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:50:35.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\appsettings.json",
+              "RelativeDocumentMoniker": "EcommerceApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\appsettings.json",
+              "RelativeToolTip": "EcommerceApi\\appsettings.json",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABMAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-10T19:35:19.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarritoService.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\CarritoService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Services\\CarritoService.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\CarritoService.cs",
+              "RelativeToolTip": "EcommerceApi\\Services\\CarritoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:15:36.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarritoController.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\CarritoController.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Controllers\\CarritoController.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\CarritoController.cs",
+              "RelativeToolTip": "EcommerceApi\\Controllers\\CarritoController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAuwEcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T22:17:04.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EcommerceApi\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:05:25.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "EcommerceApi\\Services\\CategoriaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:49:53.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EcommerceApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\EcommerceApi.csproj",
+              "RelativeDocumentMoniker": "EcommerceApi\\EcommerceApi.csproj",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\EcommerceApi.csproj",
+              "RelativeToolTip": "EcommerceApi\\EcommerceApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-07T20:53:46.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "EcommerceApi\\Controllers\\CategoriaController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAuwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:06:46.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\Abril\\.nuget\\packages\\epplus\\7.5.2\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Abril\\.nuget\\packages\\epplus\\7.5.2\\readme.txt",
+              "ToolTip": "C:\\Users\\Abril\\.nuget\\packages\\epplus\\7.5.2\\readme.txt",
+              "RelativeToolTip": "..\\..\\..\\..\\Abril\\.nuget\\packages\\epplus\\7.5.2\\readme.txt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-13T14:22:15.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrdeneController.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\OrdeneController.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Controllers\\OrdeneController.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\OrdeneController.cs",
+              "RelativeToolTip": "EcommerceApi\\Controllers\\OrdeneController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAqwBMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T11:54:50.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ItemCarritoController.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\ItemCarritoController.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Controllers\\ItemCarritoController.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\ItemCarritoController.cs",
+              "RelativeToolTip": "EcommerceApi\\Controllers\\ItemCarritoController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwD8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:07:47.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ItemOrdeneController.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\ItemOrdeneController.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Controllers\\ItemOrdeneController.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\ItemOrdeneController.cs",
+              "RelativeToolTip": "EcommerceApi\\Controllers\\ItemOrdeneController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:30:11.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ItemCarritoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Models\\ItemCarritoModel.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Models\\ItemCarritoModel.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Models\\ItemCarritoModel.cs",
+              "RelativeToolTip": "EcommerceApi\\Models\\ItemCarritoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T14:30:27.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ItemCarritoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\ItemCarritoMapper.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Mappers\\ItemCarritoMapper.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\ItemCarritoMapper.cs",
+              "RelativeToolTip": "EcommerceApi\\Mappers\\ItemCarritoMapper.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T14:31:04.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Models\\ProductoModel.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Models\\ProductoModel.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Models\\ProductoModel.cs",
+              "RelativeToolTip": "EcommerceApi\\Models\\ProductoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T15:16:44.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\ProductoDTO.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\ProductoDTO.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\ProductoDTO.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\ProductoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T15:19:00.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "tienda_mayoristaContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Migrations\\tienda_mayoristaContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Migrations\\tienda_mayoristaContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Migrations\\tienda_mayoristaContextModelSnapshot.cs",
+              "RelativeToolTip": "EcommerceApi\\Migrations\\tienda_mayoristaContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAjwAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T14:29:43.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20241104135937_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Migrations\\20241104135937_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Migrations\\20241104135937_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Migrations\\20241104135937_InitialCreate.Designer.cs",
+              "RelativeToolTip": "EcommerceApi\\Migrations\\20241104135937_InitialCreate.Designer.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAjwA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T14:28:11.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "tienda_mayoristaContext.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\tienda_mayoristaContext.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Data\\tienda_mayoristaContext.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\tienda_mayoristaContext.cs",
+              "RelativeToolTip": "EcommerceApi\\Data\\tienda_mayoristaContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T14:26:21.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\Interfaces\\IProductoRepository.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Repositories\\Interfaces\\IProductoRepository.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\Interfaces\\IProductoRepository.cs",
+              "RelativeToolTip": "EcommerceApi\\Repositories\\Interfaces\\IProductoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T21:43:56.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CarritoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\CarritoRepository.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Repositories\\CarritoRepository.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\CarritoRepository.cs",
+              "RelativeToolTip": "EcommerceApi\\Repositories\\CarritoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:43:25.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Repositories\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\ProductoRepository.cs",
+              "RelativeToolTip": "EcommerceApi\\Repositories\\ProductoRepository.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:46:36.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IItemCarritoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\Interfaces\\IItemCarritoRepository.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Repositories\\Interfaces\\IItemCarritoRepository.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\Interfaces\\IItemCarritoRepository.cs",
+              "RelativeToolTip": "EcommerceApi\\Repositories\\Interfaces\\IItemCarritoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:48:39.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ItemCarritoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\ItemCarritoRepository.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Repositories\\ItemCarritoRepository.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\ItemCarritoRepository.cs",
+              "RelativeToolTip": "EcommerceApi\\Repositories\\ItemCarritoRepository.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAuwGQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:44:55.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ItemCarritoService.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\ItemCarritoService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Services\\ItemCarritoService.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\ItemCarritoService.cs",
+              "RelativeToolTip": "EcommerceApi\\Services\\ItemCarritoService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:35:22.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ItemCarritoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\ItemCarritoDTO.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\ItemCarritoDTO.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\ItemCarritoDTO.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\ItemCarritoDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvxIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:40:17.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "EcommerceApi\\Controllers\\RoleController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwCgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:31:56.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ICarritoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\Interfaces\\ICarritoRepository.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Repositories\\Interfaces\\ICarritoRepository.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\Interfaces\\ICarritoRepository.cs",
+              "RelativeToolTip": "EcommerceApi\\Repositories\\Interfaces\\ICarritoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T13:25:06.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EcommerceApi",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\EcommerceApi.csproj",
+              "RelativeDocumentMoniker": "EcommerceApi\\EcommerceApi.csproj",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\EcommerceApi.csproj",
+              "RelativeToolTip": "EcommerceApi\\EcommerceApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-06T13:09:45.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "EcommerceApi\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T13:13:32.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "EcommerceApi\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAuwE4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T13:15:59.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\AuthService.cs",
+              "RelativeToolTip": "EcommerceApi\\Services\\AuthService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwB0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:48:58.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IItemOrdeneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\Interfaces\\IItemOrdeneRepository.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Repositories\\Interfaces\\IItemOrdeneRepository.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\Interfaces\\IItemOrdeneRepository.cs",
+              "RelativeToolTip": "EcommerceApi\\Repositories\\Interfaces\\IItemOrdeneRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:07:31.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ItemOrdeneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\ItemOrdeneRepository.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Repositories\\ItemOrdeneRepository.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\ItemOrdeneRepository.cs",
+              "RelativeToolTip": "EcommerceApi\\Repositories\\ItemOrdeneRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:45:57.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ItemOrdeneService.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\ItemOrdeneService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Services\\ItemOrdeneService.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\ItemOrdeneService.cs",
+              "RelativeToolTip": "EcommerceApi\\Services\\ItemOrdeneService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:50:18.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CarritoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\CarritoDTO.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\CarritoDTO.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\CarritoDTO.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\CarritoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:40:05.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "OrdeneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\OrdeneRepository.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Repositories\\OrdeneRepository.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\OrdeneRepository.cs",
+              "RelativeToolTip": "EcommerceApi\\Repositories\\OrdeneRepository.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAswDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:46:18.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "OrdeneService.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\OrdeneService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Services\\OrdeneService.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\OrdeneService.cs",
+              "RelativeToolTip": "EcommerceApi\\Services\\OrdeneService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:50:29.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CarritoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\CarritoMapper.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Mappers\\CarritoMapper.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\CarritoMapper.cs",
+              "RelativeToolTip": "EcommerceApi\\Mappers\\CarritoMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:41:34.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrdeneDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\OrdeneDTO.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\OrdeneDTO.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\OrdeneDTO.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\OrdeneDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:40:50.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ItemOrdeneDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\ItemOrdeneDTO.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\ItemOrdeneDTO.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\ItemOrdeneDTO.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\ItemOrdeneDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:40:36.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "OrdeneMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\OrdeneMapper.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Mappers\\OrdeneMapper.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\OrdeneMapper.cs",
+              "RelativeToolTip": "EcommerceApi\\Mappers\\OrdeneMapper.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:42:03.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Services\\RoleService.cs",
+              "RelativeToolTip": "EcommerceApi\\Services\\RoleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:50:50.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "EcommerceApi\\Repositories\\RoleRepository.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:47:06.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Repositories\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Repositories\\CategoriaRepository.cs",
+              "RelativeToolTip": "EcommerceApi\\Repositories\\CategoriaRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwDMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:44:33.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsuarioMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\UsuarioMapper.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Mappers\\UsuarioMapper.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\UsuarioMapper.cs",
+              "RelativeToolTip": "EcommerceApi\\Mappers\\UsuarioMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:42:52.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "RoleMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\RoleMapper.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Mappers\\RoleMapper.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\RoleMapper.cs",
+              "RelativeToolTip": "EcommerceApi\\Mappers\\RoleMapper.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:42:44.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ProductoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\ProductoMapper.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Mappers\\ProductoMapper.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\ProductoMapper.cs",
+              "RelativeToolTip": "EcommerceApi\\Mappers\\ProductoMapper.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:42:22.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CategoriaMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\CategoriaMapper.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Mappers\\CategoriaMapper.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Mappers\\CategoriaMapper.cs",
+              "RelativeToolTip": "EcommerceApi\\Mappers\\CategoriaMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:41:47.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RoleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\RoleDTO.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\RoleDTO.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\RoleDTO.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\RoleDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:41:08.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ResetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\ResetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\ResetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\ResetPasswordDTO.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\ResetPasswordDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:41:06.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\LoginDTO.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:40:42.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\CategoriaDTO.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\CategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Dtos\\CategoriaDTO.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\CategoriaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:40:13.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\Producto.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Data\\Producto.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\Producto.cs",
+              "RelativeToolTip": "EcommerceApi\\Data\\Producto.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:38:38.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Ordene.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\Ordene.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Data\\Ordene.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\Ordene.cs",
+              "RelativeToolTip": "EcommerceApi\\Data\\Ordene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:38:29.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ItemOrdene.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\ItemOrdene.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Data\\ItemOrdene.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\ItemOrdene.cs",
+              "RelativeToolTip": "EcommerceApi\\Data\\ItemOrdene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:38:23.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ItemCarrito.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\ItemCarrito.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Data\\ItemCarrito.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\ItemCarrito.cs",
+              "RelativeToolTip": "EcommerceApi\\Data\\ItemCarrito.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:38:14.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\Categoria.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Data\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\Categoria.cs",
+              "RelativeToolTip": "EcommerceApi\\Data\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:38:09.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Carrito.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\Carrito.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Data\\Carrito.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\Carrito.cs",
+              "RelativeToolTip": "EcommerceApi\\Data\\Carrito.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:37:45.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\Role.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Data\\Role.cs",
+              "ToolTip": "C:\\Users\\Carmen Lucia\\Desktop\\proyecto-ecommerce\\backend\\EcommerceApi\\Data\\Role.cs",
+              "RelativeToolTip": "EcommerceApi\\Data\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T14:46:30.615Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
