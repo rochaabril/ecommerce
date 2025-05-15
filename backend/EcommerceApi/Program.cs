@@ -10,6 +10,11 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.ConfigureKestrel(options =>
+{
+	options.ListenAnyIP(8080);
+});
+
 // Configurar el DbContext con la cadena de conexión
 builder.Services.AddDbContext<tienda_mayoristaContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
