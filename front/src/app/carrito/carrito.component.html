@@ -1,0 +1,39 @@
+<div class="cart-container">
+  <!-- Lista de productos del carrito -->
+  <div class="cart-products">
+    <div class="cart-item" *ngFor="let item of itemslist">
+      <button class="remove-button" (click)="removeProduct(item)">×</button>
+      <img 
+      [src]="item.product.imagenUrl || 'placeholder.jpg'" 
+      alt="{{ item.product.nombre }}" 
+      class="product-image" 
+    />
+      <div class="product-info">
+        <h3 class="product-name">{{ item.product.nombre }}</h3>
+        <p class="product-quantity">Cantidad Minima: {{ item.product.cantidadMinima }}</p>
+        <p class="product-price">Precio unitario: ${{ item.product.precio }}</p>
+        <p class="product-observaciones">Observaciones: {{item.observaciones}}</p>
+        <p class="product-total-price">Subtotal: ${{ item.product.precio * item.quantity }}</p>
+      </div>
+      <div class="product-actions">
+        <button (click)="decreaseQuantity(item)">-</button>
+        <input
+          type="number"
+          [(ngModel)]="item.quantity" [disabled]="true"
+          class="quantity-input"
+          (change)="updateQuantity(item)"
+        />
+        <button (click)="increaseQuantity(item)">+</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resumen del carrito -->
+  <div class="cart-summary">
+    <h2>Total: ${{ totalPrice }}</h2>
+    <div class="cart-buttons">
+      <button class="continue-shopping" (click)="continueShopping()">Seguir comprando</button>
+      <button class="checkout" (click)="finalizePurchase()">Finalizar compra</button>
+    </div>
+  </div>
+</div>

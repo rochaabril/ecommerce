@@ -1,0 +1,39 @@
+<div class="reset-password-container">
+    <h2>Restablecer Contraseña</h2>
+    <form [formGroup]="resetForm" (ngSubmit)="onSubmit()">
+      <div>
+        <label for="newPassword">Nueva Contraseña:</label>
+        <input
+          id="newPassword"
+          type="password"
+          formControlName="newPassword"
+          placeholder="Nueva contraseña"
+        />
+        <div *ngIf="resetForm.get('newPassword')?.invalid && resetForm.get('newPassword')?.touched">
+          La contraseña debe tener al menos 6 caracteres.
+        </div>
+      </div>
+  
+      <div>
+        <label for="confirmPassword">Confirmar Contraseña:</label>
+        <input
+          id="confirmPassword"
+          type="password"
+          formControlName="confirmPassword"
+          placeholder="Confirmar contraseña"
+        />
+        <div *ngIf="resetForm.get('confirmPassword')?.invalid && resetForm.get('confirmPassword')?.touched">
+          Por favor, confirma tu contraseña.
+        </div>
+      </div>
+  
+      <div *ngIf="errorMessage" class="error-message">
+        {{ errorMessage }}
+      </div>
+  
+      <button type="submit" [disabled]="loading || resetForm.invalid">
+        Restablecer Contraseña
+      </button>
+    </form>
+  </div>
+  

@@ -1,0 +1,100 @@
+
+<!-- Filtros fuera del card -->
+<div class="body">
+
+
+    <div class="filter-bar">
+      <!-- Buscador -->
+      <div class="p-inputgroup search-box">
+        <input type="text" pInputText placeholder="Buscar productos..." (input)="onSearchChange($event)" />
+      </div>
+    
+      <!-- Filtro por categoría con buscador -->
+      <p-dropdown 
+      class="category-filter" 
+      [options]="categories" 
+      [(ngModel)]="selectedCategory"
+      placeholder="Categoría"
+      [showClear]="true" 
+      [filter]="true" 
+      optionLabel="nombre"
+      (onChange)="filterProducts()">
+    </p-dropdown>
+      <!-- <p-dropdown class="category-filter" [options]="categories" placeholder="Categoría"  [showClear]="true" [filter]="true"></p-dropdown> -->
+    
+      <!-- Botón para mostrar productos fuera de stock -->
+      <button 
+      pButton 
+      label="Agotados" 
+      class="p-button-outlined p-button-secondary out-of-stock-button" 
+      (click)="toggleOutOfStockFilter()"
+      >
+    </button>
+    </div>
+    
+    <!-- Tarjeta de productos -->
+    <div class="product-card-container">
+      <!-- Listado de productos -->
+      <p-dataView [value]="filteredProducts" [rows]="5" [paginator]="true">
+        <ng-template let-product pTemplate="listItem">
+          <div class="product-card">
+            <img 
+            class="product-image" 
+            [src]="product.imagenUrl" 
+            [alt]="product.nombre" 
+            (click)="showImageViewer(product.imagenUrl)" 
+            style="cursor: pointer; width: 100px; height: 100px;" 
+          />
+    
+            <div class="product-info">
+              <div class="product-name">{{ product.nombre }}
+                <span class="detail" [ngClass]="{'out-of-stock': product.stock === false}">
+                  {{ product.stock === false ? 'Sin stock' : '' }}
+                </span>
+    
+              </div>
+              <div class="product-details">
+                <span class="detail">Cantidad mínima:{{product.cantidadMinima}} </span>
+                
+    <span class="detail">
+      <i class="pi pi-tag"> {{ getCategoryName(product.categoriaId) }}</i> 
+    </span>
+                <input type="text"  placeholder="Observaciones" class="observations-input"/>
+              </div>
+            </div>
+    
+            <div class="product-price">
+              {{ '$' + product.precio }}
+            </div>
+    
+            <div class="product-actions">
+              <input
+                type="number"
+                min="1"
+                [(ngModel)]="product.quantity"
+                placeholder="Cantidad"
+                class="quantity-input"
+              />
+              <button
+                pButton
+                label="Agregar al Carrito"
+                class="add-to-cart" (click)="addToCart(product)"
+                [disabled]="product.stock === false || !usuarioId"
+              
+              ></button>
+            </div>
+          </div>
+        </ng-template>
+      </p-dataView>
+    </div>
+    <p-dialog 
+      [(visible)]="imageViewerVisible" 
+      [modal]="true" 
+      [header]="'Imagen del producto'" 
+      [closable]="true" 
+      [style]="{ width: '50vw' }"
+    >
+      <div class="image-viewer">
+        <img [src]="selectedImageUrl" alt="Imagen del producto" style="width: 100%; height: auto;" />
+      </div>
+    </p-dialog>

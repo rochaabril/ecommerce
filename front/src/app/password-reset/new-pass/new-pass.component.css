@@ -1,0 +1,74 @@
+.reset-password-container {
+    max-width: 400px;
+    margin: 3em auto; /* Mayor espacio desde el header */
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #f9f9f9; /* Fondo claro para resaltar */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centrar contenido */
+  }
+  
+  .reset-password-container h2 {
+    margin-bottom: 1.5em;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.3em;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.75em;
+    margin-bottom: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.2s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff; /* Azul suave */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  button {
+    padding: 0.75em 1.5em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Azul más oscuro en hover */
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: #e63946; /* Rojo llamativo */
+    margin-top: 1em;
+    font-size: 0.9rem;
+  }
+  
+  form div {
+    text-align: left;
+    margin-bottom: 1em;
+  }
+  

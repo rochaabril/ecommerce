@@ -1,0 +1,32 @@
+<div class="user-card">
+    <h2>Perfil de Usuario</h2>
+    
+    <div class="user-info">
+      <label>Nombre:</label>
+      <p *ngIf="!isEditing">{{ person.nombre}}</p>
+      <input *ngIf="isEditing" [(ngModel)]="person.nombre" type="text" />
+  
+      <label>Correo Electrónico:</label>
+      <p *ngIf="!isEditing">{{ person.email }}</p>
+      <input *ngIf="isEditing" disabled="true" [(ngModel)]="person.email" type="email" />
+      <label>Contraseña:</label>
+      <p *ngIf="!isEditing">******</p>
+      <input *ngIf="isEditing"  type="password" />
+      <label>Direccion:</label>
+      <p *ngIf="!isEditing">{{ person.direccion }}</p>
+      <input *ngIf="isEditing" [(ngModel)]="person.direccion" type="direccion" />
+      <label>Whatsapp:</label>
+      <p *ngIf="!isEditing">{{ person.whatsapp }}</p>
+      <input *ngIf="isEditing" [(ngModel)]="person.whatsapp" type="whatsapp" />
+  
+      <!-- Añade otros campos según necesites -->
+    </div>
+  
+    <div class="actions">
+      <button pButton label="Editar" (click)="toggleEdit()" class="p-button-secondary" *ngIf="!isEditing"></button>
+      <button pButton label="Guardar" (click)="saveChanges()" class="p-button-success" *ngIf="isEditing"></button>
+      <button pButton label="Cancelar"  class="p-button" *ngIf="isEditing"></button>
+      <button pButton label="Cerrar Sesión" (click)="logout()" class="p-button-danger"></button>
+    </div>
+  </div>
+  

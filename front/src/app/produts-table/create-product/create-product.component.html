@@ -1,0 +1,80 @@
+<div class="create-product-container" >
+
+  
+    <!-- Formulario para crear un producto -->
+    <form [formGroup]="productForm" (ngSubmit)="createProduct()">
+      <div class="form-field">
+        <label for="nombre">* Nombre</label>
+        <input id="nombre" formControlName="nombre" type="text" />
+        <div *ngIf="productForm.controls['nombre'].invalid && productForm.controls['nombre'].touched">
+          <small class="error">El nombre es obligatorio.</small>
+        </div>
+      </div>
+  
+      <div class="form-field">
+        <label for="precio">* Precio</label>
+        <input id="precio" formControlName="precio" type="number" />
+        <div *ngIf="productForm.controls['precio'].invalid && productForm.controls['precio'].touched">
+          <small class="error">El precio es obligatorio y debe ser mayor a 0.</small>
+        </div>
+      </div>
+  
+      <div class="form-field">
+        <label for="stock">* ¿Tiene Stock?</label>
+        <select id="stock" formControlName="stock">
+          <option [value]="true">Sí</option>
+          <option [value]="false">No</option>
+        </select>
+        <div *ngIf="productForm.controls['stock'].invalid && productForm.controls['stock'].touched">
+          <small class="error">Selecciona una opción válida.</small>
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="cantidadMinima">* Cantidad Mínima</label>
+        <input id="cantidadMinima" formControlName="cantidadMinima" type="number" />
+        <div *ngIf="productForm.controls['cantidadMinima'].invalid && productForm.controls['cantidadMinima'].touched">
+          <small class="error">La cantidad mínima es obligatoria y debe ser mayor a 0.</small>
+        </div>
+      </div>
+  
+      <div class="form-field">
+        <label for="categoriaId">* Categoría</label>
+        <select id="categoriaId" formControlName="categoriaId">
+          <option *ngFor="let categoria of categorias" [value]="categoria.id">
+            {{ categoria.nombre }}
+          </option>
+        </select>
+        <div *ngIf="productForm.controls['categoriaId'].invalid && productForm.controls['categoriaId'].touched">
+          <small class="error">Selecciona una categoría válida.</small>
+        </div>
+        <button type="button" class="create-category-btn" (click)="openCategoryModal()">Crear nueva categoría</button>
+      </div>
+  
+      <div class="form-field">
+        <label for="imagenUrl">Imagen</label>
+        <input id="imagenUrl" type="file" (change)="onImageSelected($event)" />
+      </div>
+  
+      <div class="form-actions">
+        <button type="submit" [disabled]="productForm.invalid">Crear</button>
+      </div>
+    </form>
+    <div *ngIf="isCategoryModalOpen" class="modal">
+      <div class="modal-content">
+        <h2>Crear Categoría</h2>
+        <form [formGroup]="categoryForm" (ngSubmit)="createCategory()">
+          <div class="form-field">
+            <label for="nombreCategoria">Nombre de la Categoría</label>
+            <input id="nombreCategoria" formControlName="nombre" type="text" />
+            <div *ngIf="categoryForm.controls['nombre'].invalid && categoryForm.controls['nombre'].touched">
+              <small class="error">El nombre es obligatorio.</small>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" [disabled]="categoryForm.invalid">Guardar</button>
+            <button type="button" (click)="closeCategoryModal()">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>

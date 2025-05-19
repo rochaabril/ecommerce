@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+* {
+
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+    font-size: 14px;
+    background: linear-gradient(90deg, #ff9a3b, #ad398a);
+  }
+  body {
+    font-family: var(--font-family);
+    font-weight: normal;
+    background: var(--surface-ground);
+    color: var(--text-color);
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+  .card {
+    background: var(--surface-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+ 
+  app-header {
+    background: linear-gradient(90deg, #ff9a3b, #ad398a);
+    color: white;
+    padding: 0.1rem 1rem;
+    position: fixed; /* Mantiene el header fijo en la parte superior */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+  }
+  
+  .content {
+    margin-top: 80px; /* Ajusta este valor según la altura del header */
+    padding: 20px; /* Espaciado para el contenido */
+    min-height: calc(100vh - 120px); /* Asegúrate de que el contenido ocupe el espacio restante */
+    background: linear-gradient(90deg, #ff9a3b, #ad398a);
+  }
+  
+  app-footer {
+    background: linear-gradient(90deg, #ff9a3b, #ad398a);
+    color: white;
+    text-align: center;
+    
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  

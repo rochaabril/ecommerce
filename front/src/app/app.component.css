@@ -1,0 +1,10 @@
+::ng-deep .p-dropdown {
+    display: inline-flex
+;
+    cursor: pointer;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+    max-width: 12rem;
+    min-width: 12rem;
+}

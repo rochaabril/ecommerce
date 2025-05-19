@@ -1,0 +1,69 @@
+/* Estilos de la página de inicio de sesión */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #ff9a3b, #ad398a);
+  }
+  
+  .login-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #666;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #666;
+  }
+  
+  .login-button {
+    background-color: #ad398a;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .loginR-button {
+    background-color: #ff9a3b;
+    width: 100%;
+    margin-top: 1rem; 
+  }
+  
+  /* Estilos para mostrar el cursor en forma de manito en los enlaces */
+  .login-box p a {
+    color: #ad398a; /* Color de los enlaces */
+    text-decoration: underline;
+    cursor: pointer; /* Hace que aparezca la manito al pasar el mouse */
+  }
+  

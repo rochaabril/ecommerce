@@ -1,0 +1,54 @@
+<div class="edit-product-container">
+
+  
+  <!-- Formulario para editar el producto -->
+  <form [formGroup]="productForm" (ngSubmit)="saveProduct()">
+    <div class="form-field">
+      <label for="nombre">* Nombre</label>
+      <input id="nombre" formControlName="nombre" type="text" />
+      <div *ngIf="productForm.controls['nombre'].invalid && productForm.controls['nombre'].touched">
+        <small class="error">El nombre es obligatorio.</small>
+      </div>
+    </div>
+
+    <div class="form-field">
+      <label for="precio">* Precio</label>
+      <input id="precio" formControlName="precio" type="number" />
+      <div *ngIf="productForm.controls['precio'].invalid && productForm.controls['precio'].touched">
+        <small class="error">El precio es obligatorio y debe ser mayor a 0.</small>
+      </div>
+    </div>
+
+    <div class="form-field">
+      <label for="stock">* ¿Tiene Stock?</label>
+      <select id="stock" formControlName="stock">
+        <option value="true">Sí</option>
+        <option value="false">No</option>
+      </select>
+    </div>
+
+    <div class="form-field">
+      <label for="cantidadMinima">* Cantidad Mínima</label>
+      <input id="cantidadMinima" formControlName="cantidadMinima" type="number" />
+      <div *ngIf="productForm.controls['cantidadMinima'].invalid && productForm.controls['cantidadMinima'].touched">
+        <small class="error">La cantidad mínima es obligatoria y debe ser mayor a 0.</small>
+      </div>
+    </div>
+
+    <div class="form-field">
+      <label for="categoriaId">* Categoría</label>
+      <select id="categoriaId" formControlName="categoriaId">
+        <option *ngFor="let categoria of categorias" [value]="categoria.id">{{ categoria.nombre }}</option>
+      </select>
+    </div>
+
+    <div class="form-field">
+      <label for="imagenUrl">Imagen</label>
+      <input id="imagenUrl" type="file" (change)="onImageSelected($event)" />
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" [disabled]="productForm.invalid">Guardar</button>
+    </div>
+  </form>
+</div>

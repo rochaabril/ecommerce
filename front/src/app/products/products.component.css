@@ -1,0 +1,227 @@
+
+.product-card-container {
+
+  padding: 1rem;
+  border-radius: 10px; /* Bordes redondeados para el contenedor */
+  background-color: #ffffff; /* Fondo blanco */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sombra ligera */
+  max-width: 1100px; /* Ancho máximo de la tabla */
+  margin: 0 auto; /* Centrar el contenedor */
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+
+.product-image {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.product-info {
+  text-align: center;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.detail {
+  margin: 0.3rem 0;
+}
+
+.product-price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #f55698;
+}
+
+.product-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quantity-input {
+  width: 70px;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.add-to-cart {
+  background-color: #2d89ef;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+  .product-card {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .product-info {
+    text-align: left;
+    flex: 1;
+    margin-left: 1rem;
+  }
+
+  .product-price {
+    margin: 0 2rem;
+  }
+
+  .product-actions {
+    align-items: center;
+  }
+}
+.observations-input {
+  width: 70%;
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+  /* filtros */
+  .fixed-width {
+    width: 1000px; /* Cambia este valor según lo que necesites */
+  }
+  
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;     /* Alinear verticalmente */
+    gap: 1rem;               /* Espacio entre los elementos */
+    margin-bottom: 1rem;     /* Margen inferior para separar la barra de filtros de los productos */
+    margin-top: 2rem;
+  }
+  
+  .p-inputgroup {
+    width: 100%; /* Asegúrate de que el input ocupe todo el espacio disponible */
+  }
+  
+  .search-box {
+    max-width: 185px; /* Define un ancho máximo para el buscador */
+  }
+  
+  .search-box input {
+    height: 40px; /* Ajusta la altura del input de búsqueda */
+    border: 1px solid #d8d8d8; /* Aplica un borde gris claro */
+    box-shadow: none; /* Evita que aparezcan sombras alrededor del borde */
+    outline: none; /* Evita que se añada un borde azul al hacer clic */
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Suaviza el cambio de color del borde */
+  }
+  
+  /* Resaltar el borde al pasar el mouse */
+  .search-box input:hover {
+    border-color: #b3b3b3; /* Borde gris más oscuro al pasar el mouse */
+  }
+  
+  .search-box input:focus {
+    border-color: #b3b3b3; /* Borde gris más oscuro cuando esté enfocado */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1); /* Añade un recuadro gris más oscuro */
+    outline: none; /* Asegura que no haya borde adicional al hacer clic */
+  }
+  
+  .category-filter {
+    width: 180px; /* Ajusta el ancho del filtro de categoría */
+   
+  }
+  
+  /* Estilos para el dropdown (p-dropdown) */
+  .category-filter .p-dropdown {
+    border: 1px solid #d8d8d8; /* Borde gris claro */
+    border-radius: 4px; /* Esquinas redondeadas */
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Suaviza la transición */
+  }
+  
+  .category-filter .p-dropdown .p-dropdown-label {
+    outline: none; /* Evita el borde azul al hacer clic */
+  }
+  
+  .category-filter .p-dropdown:focus-within .p-dropdown-label {
+    border-color: #b3b3b3; /* Borde gris más oscuro al hacer clic */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1); /* Genera un "recuadro" gris oscuro */
+  }
+  
+  .category-filter .p-dropdown .p-focus {
+    box-shadow: none !important; /* Evita cualquier sombra predeterminada al hacer clic */
+  }
+  
+  .category-filter .p-dropdown .p-dropdown-trigger {
+    outline: none; /* Evita el borde azul al hacer clic */
+  }
+  
+  .category-filter .p-dropdown:focus-within .p-dropdown-trigger {
+    box-shadow: none; /* Elimina sombras adicionales en el trigger */
+  }
+  
+  /* Efecto hover para el dropdown */
+  .category-filter .p-dropdown:hover {
+    border-color: #a6a6a6; /* Borde gris oscuro al pasar el cursor */
+  }
+  
+  .out-of-stock-button {
+    width: 150px; /* Ajusta el ancho del botón de productos agotados */
+    border-color: #d8d8d8; /* Borde gris claro */
+    background-color: #ffffff;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .out-of-stock-button:focus {
+    border-color: #b3b3b3; /* Borde gris más oscuro al hacer clic */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1); /* Genera un "recuadro" con un tono más oscuro */
+  }
+  
+  .out-of-stock-button:hover {
+    border-color: #a6a6a6; /* Borde gris oscuro al pasar el cursor */
+  }
+  
+  .quantity-input-field {
+    width: 60px; /* Ajusta el ancho del input según sea necesario */
+    margin-right: 10px; /* Espaciado entre el precio y el input */
+  }
+  .out-of-stock {
+    color: red;  /* Cambia el color a rojo */
+    font-weight: bold;
+  }
+  ::ng-deep .p-dropdown {
+    display: inline-flex
+;
+    cursor: pointer;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+    max-width: 12rem;
+    min-width: 12rem;
+}

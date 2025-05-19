@@ -1,0 +1,200 @@
+.logo-img {
+  width: 90px; 
+  height: auto; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin-right: 1rem;
+}
+
+nav {
+  background: linear-gradient(90deg, #ff9a3b, #ad398a);
+  color: white;
+  padding: 0.6rem 1rem;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  position: relative;
+}
+
+nav a {
+  font-size: 2.5rem; 
+  font-weight: bold; 
+  color: white;
+  text-decoration: none;
+}
+
+.nav-items li a {
+  cursor: pointer;
+}
+
+.nav-items {
+  display: flex;
+  margin-left: auto; 
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-items li {
+  margin-right: 2rem;
+}
+
+.nav-items li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle .bar {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  margin: 3px 0;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+  nav {
+    padding: 0.4rem 0.8rem;
+  }
+
+  .logo-img {
+    width: 60px;
+    margin-right: 0.5rem;
+  }
+
+  .nav-items {
+    display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 56px;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        padding: 0.5rem 0;
+        animation: fadeIn 0.3s ease-in-out;
+        width: 118px;
+  }
+
+  .nav-items.active {
+    display: flex;
+  }
+
+  .nav-items li {
+    padding: 0.4rem 1rem;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+  }
+
+  .nav-items li:last-child {
+    border-bottom: none;
+  }
+
+  .nav-items li a {
+    font-size: 0.95rem;
+    color: #444;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .menu-toggle .bar {
+    height: 2px;
+    width: 22px;
+    background-color: white;
+    border-radius: 2px;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .cart-badge {
+    top: -2px;
+    right: -2px;
+    width: 10px;
+    height: 10px;
+    font-size: 7px;
+  }
+}
+
+
+/* Perfil - Contenedor del ícono */
+.profile-item {
+  position: relative;
+  display: inline-block;
+}
+
+/* Submenú */
+.submenu {
+  position: absolute;
+  top: 100%; /* Asegura que el submenú se coloque justo debajo del ícono */
+  left: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  width: 150px; /* Puedes ajustar el ancho según sea necesario */
+  display: none; /* Inicialmente oculto */
+}
+
+.submenu li {
+  padding: 12px 16px;
+  font-weight: 500;
+}
+
+.submenu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.submenu li:hover {
+  background-color: #ff9a3b;
+}
+
+.submenu li a:hover {
+  color: white;
+}
+
+/* Mostrar el submenú */
+.profile-item.open .submenu {
+  display: block;
+}
+.cart-badge {
+  position: absolute;
+  top: -3px;  /* Ajusta esta posición según sea necesario */
+  right: -3px;  /* Ajusta esta posición según sea necesario */
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 12px;  /* Ajusta el tamaño del punto si es necesario */
+  height: 12px;  /* Ajusta el tamaño del punto si es necesario */
+  font-size: 8px;  /* Tamaño de la letra si lo necesitas */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
